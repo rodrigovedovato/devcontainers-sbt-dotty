@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 ARG V_SBT=1.3.8
-ARG V_DOTTY=0.22.0-RC1
+ARG V_DOTTY=0.24.0
 # Avoid warnings by switching to noninteractive
 ENV DEBIAN_FRONTEND=noninteractive
 
